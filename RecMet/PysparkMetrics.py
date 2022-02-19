@@ -2,7 +2,7 @@ from PythonMetrics import Metrics
 import pyspark.sql.functions as sf
 from pyspark.sql.types import FloatType
 
-class RecMet:
+class recmet:
     def __init__(self, weights, longtail_thresh):
         
         self.weights = weights
@@ -24,3 +24,4 @@ class RecMet:
 
         # Pyspark ACLT
         self.ACLT = sf.udf(lambda x: met.ACLT(x), FloatType())
+
