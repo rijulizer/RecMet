@@ -7,7 +7,7 @@ class Metrics:
         self.longtail_thresh = longtail_thresh
 
     # Average Intersection
-    def AI(self, recommended, actual):
+    def AI(self, recommended, actual) -> float:
         
         common_num = len(list(set(actual).intersection(set(recommended))))
         AI = round(common_num/ min(len(actual), len(recommended)), 4)
