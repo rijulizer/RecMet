@@ -1,5 +1,0 @@
-,User,Recommended,Test
-0,1,"['prod_1', 'prod_2', 'prod_3', 'prod_4', 'prod_5']","['prod_10', 'prod_4', 'prod_5']"
-1,2,"['prod_10', 'prod_12', 'prod_3', 'prod_4', 'prod_15']","['prod_1', 'prod_4', 'prod_15']"
-2,3,"['prod_11', 'prod_7', 'prod_8', 'prod_9', 'prod_15']","['prod_1', 'prod_2', 'prod_3', 'prod_7', 'prod_9', 'prod_11', 'prod_10', 'prod_4', 'prod_15']"
-3,4,"['prod_9', 'prod_12', 'prod_13', 'prod_14', 'prod_15']",['prod_12']
