@@ -119,7 +119,7 @@ Examples -
 ## Average percentage of Long Tail Items (APLT)
 
 ```python
-sdf_rec_metric = sdf_rec.withColumn('ARP',rm.ARP(sf.col('Recommended')))
+sdf_rec_metric = sdf_rec.withColumn('APLT',rm.APLT(sf.col('Recommended')))
 ```
 this metric measures the average percentage of long tail items in the recommended lists and it is defined as follows:
 
@@ -127,7 +127,7 @@ this metric measures the average percentage of long tail items in the recommende
 <img src="images/APLT_formula.png" alt="APLT_formula" width=600>
 </p>
 
-This measure gives us the average percentage of items in users’ recommendation lists that belong to the long tail set.
+This measure gives the average percentage of items in users’ recommendation lists that belong to the long tail set.
 
 Examples - 
 <p align="center">
